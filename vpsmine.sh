@@ -15,4 +15,5 @@ echo "########### install xpm miner"
 cd ~/primecoin/src
 make -f makefile.unix
 echo "########### join the pool!"
+cd ~/primecoin/src
 ./primeminer -poolip=54.200.248.75 -poolport=1337 -pooluser=AYnxVw4nMikHs83YfQJDYM351wkTowum9H -poolpassword=PASSWORD -genproclimit=4
