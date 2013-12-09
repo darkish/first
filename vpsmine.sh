@@ -8,7 +8,7 @@ sudo apt-get install -y libboost-all-dev libdb++-dev libgmp-dev libssl-dev dos2u
 echo "########### final libs"
 sudo apt-get install -y libboost1.48-all libboost-chrono1.48-dev
 echo "########### tmux time!"
-sudo apt-get install tmux
+sudo apt-get install -y tmux
 echo "########### git xpm miner"
 git clone https://github.com/thbaumbach/primecoin
 echo "########### install xpm miner"
